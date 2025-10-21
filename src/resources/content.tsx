@@ -44,7 +44,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building bridges between machine and human</>,
   featured: {
     display: true,
     title: (
@@ -60,14 +60,10 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
-      <Logo
-        dark
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Samir, a cs student at Georgia State University,
+      
+      where I craft creative software solutions, 
+      <br />combining software and machine learning to make an impact.
     </>
   ),
 };
@@ -107,12 +103,12 @@ const about: About = {
         role: "Senior Design Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Created a housing price prediction software in Atlanta with 91% accuracy helping home buyers 
+            buy homes within budget.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Spearheaded the integration of XGBoost for higher accuracy in predictive models, resulting in a 15% improvement
+            in forecast precision.
           </>,
         ],
         images: [
